@@ -1,4 +1,4 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg">https://www.kuwaitpay.com/images/knet.jpg</p>
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"><img src="https://www.kuwaitpay.com/images/knet.jpg"></p>
 
 <p align="center">
 <a href="https://github.com/mohamedcodere/Knet-payment-php-laravel/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/mohamedcodere/Knet-payment-php-laravel?style=flat-square"></a>
