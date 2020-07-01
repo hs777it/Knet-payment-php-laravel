@@ -1,0 +1,26 @@
+{
+    "name": "mgcoder/knet",
+    "description": "Knet Payment Integration Laravel - PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Coder",
+            "email": "mohamedgcoder@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload-dev": {
+        "psr-4": {
+            "Mgcoder\\Knet\\": "src/"
+        }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "Mgcoder\\Knet\\KnetServiceProvider"
+        ]
+    }
+  }
+}
