@@ -41,6 +41,7 @@ class KnetController extends Controller
     $this->ResponseUrl = config('knet.ResponseUrl');
     $this->ErrorUrl = config('knet.ErrorUrl');
     $this->TestUrl = config('knet.TestUrl');
+    $this->Url = config('knet.Url');
     $this->TranTrackid = Str::random(11);
 
     $this->initialParam();
@@ -49,7 +50,7 @@ class KnetController extends Controller
   public function knetRequest($param)
   {
     $param = $this->encrypt($param);
-    $headerUrl = $this->TestUrl;
+    $headerUrl = config('knet.Env') == 'test' ? $this->TestUrl : $this->Url;
     return header("Location: ".$headerUrl."?param=paymentInit"."&trandata=".$param);
   }
 

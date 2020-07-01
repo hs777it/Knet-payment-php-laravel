@@ -9,6 +9,7 @@ return [
   'Currency' => '414',
   'ResponseUrl' => url('HandlerResponse'),
   'ErrorUrl' => url('Error'),
+  'Env' => 'tesst',
   'TestUrl' => 'https://kpaytest.com.kw/kpg/PaymentHTTP.htm',
   'Url' => 'https://www.kpay.com.kw/kpg/PaymentHTTP.htm',
 ];
